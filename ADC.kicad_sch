@@ -269,42 +269,60 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "THS4531IDGKR:THS4531IDGKR"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "Reference_Voltage:MAX6070AAUT18V+T"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -12.7 13.7 0)
+				(at 1.27 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "THS4531IDGKR"
-				(at -12.7 -16.7 0)
+			(property "Value" "MAX6070AAUT18V+T"
+				(at 1.27 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "THS4531IDGKR:SOP65P490X110-8N"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max6070-max6071.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 1.8V, ±0.04% initial accuracy, SOT-23-6"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_keywords" "Low Noise Precision Voltage Reference AEC-Q100 MAX6070AAUT18/V+T"
 				(at 0 0 0)
 				(effects
 					(font
@@ -313,7 +331,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -322,238 +340,124 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Ultra low power 0.25mA, RRO, fully differential amplifier"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "VSSOP-8 Texas Instruments"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/THS4531IDGKR/Texas+Instruments/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "THS4531IDGKR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/THS4531IDGKR/Texas+Instruments/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "THS4531IDGKR_0_0"
+			(symbol "MAX6070AAUT18V+T_0_1"
 				(rectangle
-					(start -12.7 -12.7)
-					(end 12.7 12.7)
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
 					(stroke
-						(width 0.41)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type background)
 					)
 				)
+			)
+			(symbol "MAX6070AAUT18V+T_1_1"
 				(pin input line
-					(at -17.78 10.16 0)
-					(length 5.08)
-					(name "VIN+"
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "EN"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 7.62 0)
-					(length 5.08)
-					(name "VIN-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "PD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -2.54 0)
-					(length 5.08)
-					(name "VOCM"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -7.62 0)
-					(length 5.08)
-					(name "VS+"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -17.78 -10.16 0)
-					(length 5.08)
-					(name "VS-"
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "FILTER"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 10.16 180)
-					(length 5.08)
-					(name "VOUT+"
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VIN"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin output line
-					(at 17.78 7.62 180)
-					(length 5.08)
-					(name "VOUT-"
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUTF"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "OUTS"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -670,6 +574,12 @@
 		(uuid "3c10449e-5afd-426c-87e0-17b07b145726")
 	)
 	(junction
+		(at 147.32 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a2d2208-bcbf-4e79-9ac5-6ab827139ee9")
+	)
+	(junction
 		(at 203.2 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -688,16 +598,34 @@
 		(uuid "a472b4ea-fb62-4767-8eaf-a2f42122b6dc")
 	)
 	(junction
-		(at 181.61 107.95)
+		(at 175.26 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c8c0482f-57eb-4337-b034-09d2d0a02a6a")
+		(uuid "a7036a58-6b0b-4682-a474-5fe6a97e7c0f")
 	)
 	(junction
-		(at 181.61 153.67)
+		(at 175.26 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf6deaeb-546a-4ac9-b0cd-248c41940fc9")
+		(uuid "af10ae2c-cf28-4e00-b82d-7e03c7f8eb6a")
+	)
+	(junction
+		(at 166.37 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b56193fe-f540-427c-9ffd-0c1d2ada3ae2")
+	)
+	(junction
+		(at 175.26 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1d7e2f9-968c-4d91-b5e0-ce23f819dc21")
+	)
+	(junction
+		(at 147.32 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e21105db-ad61-4bfc-8d22-aada094a3915")
 	)
 	(junction
 		(at 203.2 153.67)
@@ -707,33 +635,43 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 153.67) (xy 142.24 153.67)
+			(xy 156.21 128.27) (xy 147.32 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f3dd5fb-9cb9-4eb8-ab17-9a974032eb00")
+		(uuid "059c4193-6ed2-4fd3-85dd-7d151d17a6cb")
 	)
 	(wire
 		(pts
-			(xy 167.64 107.95) (xy 181.61 107.95)
+			(xy 166.37 114.3) (xy 175.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf95f11-17d3-494f-a84a-700f262fcd9e")
+	)
+	(wire
+		(pts
+			(xy 161.29 114.3) (xy 166.37 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17eec4ff-ff78-4676-9344-5d624e223d2c")
+	)
+	(wire
+		(pts
+			(xy 167.64 107.95) (xy 175.26 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1d098635-0007-490d-a244-1aed9e6c5e7e")
-	)
-	(wire
-		(pts
-			(xy 181.61 107.95) (xy 189.23 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eb4ef37-369b-4d62-bff5-e5d081b133ed")
 	)
 	(wire
 		(pts
@@ -747,6 +685,36 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 128.27) (xy 175.26 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238903c1-e66e-4e23-b773-01114e23bd3c")
+	)
+	(wire
+		(pts
+			(xy 175.26 138.43) (xy 175.26 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b1e78f-fde9-4ce7-b797-e3e997365659")
+	)
+	(wire
+		(pts
+			(xy 161.29 138.43) (xy 147.32 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c45f1cc-2c7a-4134-9f91-33c167d98b90")
+	)
+	(wire
+		(pts
 			(xy 203.2 129.54) (xy 203.2 143.51)
 		)
 		(stroke
@@ -754,16 +722,6 @@
 			(type default)
 		)
 		(uuid "550e38ed-d652-4871-bfea-ff5039b00ed2")
-	)
-	(wire
-		(pts
-			(xy 181.61 124.46) (xy 181.61 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55cda29a-3098-4569-99c1-6d27a568a088")
 	)
 	(wire
 		(pts
@@ -787,16 +745,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 107.95) (xy 142.24 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "586dcd1a-8308-44a6-8b9e-366288191327")
-	)
-	(wire
-		(pts
 			(xy 217.17 153.67) (xy 222.25 153.67)
 		)
 		(stroke
@@ -804,16 +752,6 @@
 			(type default)
 		)
 		(uuid "5c0a6210-1f10-4829-9d4a-739cafe62f75")
-	)
-	(wire
-		(pts
-			(xy 142.24 153.67) (xy 142.24 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a927dee-89c5-4b0d-af3f-3ac9c01ea17e")
 	)
 	(wire
 		(pts
@@ -837,13 +775,53 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 153.67) (xy 181.61 153.67)
+			(xy 167.64 153.67) (xy 175.26 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "75a8e6e5-67ac-44af-ac70-cc36c68613fd")
+	)
+	(wire
+		(pts
+			(xy 147.32 153.67) (xy 160.02 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d790eb-699c-4d86-88df-9d7cf311034d")
+	)
+	(wire
+		(pts
+			(xy 147.32 138.43) (xy 147.32 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78522bfa-4f2b-4665-930c-6e9ac76fd5f4")
+	)
+	(wire
+		(pts
+			(xy 175.26 114.3) (xy 175.26 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef16133-d9eb-4fab-95f1-7ab6b9a85d9d")
+	)
+	(wire
+		(pts
+			(xy 166.37 138.43) (xy 175.26 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9512ec0b-354f-4a75-8353-ca8a4a8aa69f")
 	)
 	(wire
 		(pts
@@ -867,13 +845,33 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 121.92) (xy 146.05 121.92)
+			(xy 175.26 107.95) (xy 189.23 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afb3a670-6bb7-4ee9-a9c2-a6e43c31a87a")
+		(uuid "ae500904-72f9-4c8c-99a4-1e58038b3dde")
+	)
+	(wire
+		(pts
+			(xy 175.26 153.67) (xy 189.23 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b11e2e2b-1421-4b94-893f-6476456b2945")
+	)
+	(wire
+		(pts
+			(xy 166.37 114.3) (xy 166.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13b5fb0-72cc-4ba8-9ef3-ae4255214dbe")
 	)
 	(wire
 		(pts
@@ -897,6 +895,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 128.27) (xy 171.45 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a6642d-00cb-418b-868e-0042592f8c2b")
+	)
+	(wire
+		(pts
 			(xy 203.2 151.13) (xy 203.2 153.67)
 		)
 		(stroke
@@ -907,6 +915,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 153.67) (xy 147.32 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd09a7b3-3e64-489b-98ee-552bec3fdedb")
+	)
+	(wire
+		(pts
 			(xy 196.85 153.67) (xy 203.2 153.67)
 		)
 		(stroke
@@ -914,16 +932,6 @@
 			(type default)
 		)
 		(uuid "d6e8bfef-0ffd-4fca-8c97-b37bb3a30598")
-	)
-	(wire
-		(pts
-			(xy 181.61 107.95) (xy 181.61 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7ebfc12-93e2-41dd-b58d-168ba691e086")
 	)
 	(wire
 		(pts
@@ -947,13 +955,23 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 124.46) (xy 146.05 124.46)
+			(xy 147.32 107.95) (xy 160.02 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db2b9f36-9aa3-458c-a67e-7a663de4a9b7")
+		(uuid "e510d286-6f82-44bb-9886-dd457d94adb2")
+	)
+	(wire
+		(pts
+			(xy 147.32 107.95) (xy 147.32 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe7e0af-440e-4e24-9118-7f25cd82ffc9")
 	)
 	(wire
 		(pts
@@ -967,23 +985,23 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 153.67) (xy 189.23 153.67)
+			(xy 161.29 114.3) (xy 161.29 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb286509-75cd-44bf-adf2-c9df55fb7620")
+		(uuid "fc6bf51a-aa80-41f7-9fbb-fcc3eccb843d")
 	)
 	(wire
 		(pts
-			(xy 142.24 107.95) (xy 142.24 121.92)
+			(xy 135.89 107.95) (xy 147.32 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fcf4cbb5-ab77-4231-a1d3-6fa2a7afaa4a")
+		(uuid "fc944333-e7ff-4bb1-ab6d-7bf7d940c7ef")
 	)
 	(global_label "AIN"
 		(shape output)
@@ -1166,173 +1184,6 @@
 		)
 	)
 	(symbol
-		(lib_id "THS4531IDGKR:THS4531IDGKR")
-		(at 163.83 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d1ba99b-b444-4565-b783-4fedb920d495")
-		(property "Reference" "U2"
-			(at 163.83 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "THS4531IDGKR"
-			(at 163.83 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "THS4531IDGKR:SOP65P490X110-8N"
-			(at 163.83 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 163.83 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Ultra low power 0.25mA, RRO, fully differential amplifier"
-			(at 163.83 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "VSSOP-8 Texas Instruments"
-			(at 163.83 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 163.83 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/THS4531IDGKR/Texas+Instruments/view-part/?ref=snap"
-			(at 163.83 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "THS4531IDGKR"
-			(at 163.83 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 163.83 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/THS4531IDGKR/Texas+Instruments/view-part/?ref=eda"
-			(at 163.83 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3e6e0deb-eced-4253-bb6e-486387b29055")
-		)
-		(pin "3"
-			(uuid "c383d604-0950-4849-9604-f629e110be77")
-		)
-		(pin "7"
-			(uuid "f6aa6bc9-1f69-4be7-860c-4d63bdaa9511")
-		)
-		(pin "6"
-			(uuid "cfe8fd53-e931-4ab0-91a7-75b767c22200")
-		)
-		(pin "4"
-			(uuid "b2f3fab7-ba13-43d9-b573-7ef7b03545d0")
-		)
-		(pin "8"
-			(uuid "f8049660-9e43-4f97-ab86-7cd6b142f8e3")
-		)
-		(pin "5"
-			(uuid "69125d25-f977-4d96-ba89-2d79495a0f31")
-		)
-		(pin "1"
-			(uuid "bddf5b49-0f29-4c97-b989-bd613c9d0626")
-		)
-		(instances
-			(project ""
-				(path "/5c7bcd8c-0d45-4448-8715-3709db3cee3b/88458af4-6d61-4772-b6e1-3a4833027f47"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_US")
 		(at 222.25 129.54 0)
 		(unit 1)
@@ -1465,6 +1316,89 @@
 			(project ""
 				(path "/5c7bcd8c-0d45-4448-8715-3709db3cee3b/88458af4-6d61-4772-b6e1-3a4833027f47"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Reference_Voltage:MAX6070AAUT18V+T")
+		(at 163.83 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e83e99d-fa46-456d-9eaf-1668b0437428")
+		(property "Reference" "U2"
+			(at 180.34 121.8498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX6070AAUT18V+T"
+			(at 180.34 124.3898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 156.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max6070-max6071.pdf"
+			(at 163.83 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Noise, High-Precision Series Voltage Reference, 1.8V, ±0.04% initial accuracy, SOT-23-6"
+			(at 163.83 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ddac90f4-af7c-44ab-99d6-ee7551a5c97d")
+		)
+		(pin "1"
+			(uuid "901070f1-41d3-4663-a9c2-0673cd5933a3")
+		)
+		(pin "4"
+			(uuid "b9e7495c-78f5-4636-9faf-8fbf9aee184d")
+		)
+		(pin "2"
+			(uuid "ce119c7a-247a-4826-85b8-ce98541024c5")
+		)
+		(pin "6"
+			(uuid "3da8fd10-8b01-42aa-aeeb-f37cb1b963a5")
+		)
+		(pin "5"
+			(uuid "4459e496-ed3e-42f4-b997-29828db4cac2")
+		)
+		(instances
+			(project ""
+				(path "/5c7bcd8c-0d45-4448-8715-3709db3cee3b/88458af4-6d61-4772-b6e1-3a4833027f47"
+					(reference "U2")
 					(unit 1)
 				)
 			)
