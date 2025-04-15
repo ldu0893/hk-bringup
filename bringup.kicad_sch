@@ -4,561 +4,119 @@
 	(generator_version "9.0")
 	(uuid "5c7bcd8c-0d45-4448-8715-3709db3cee3b")
 	(paper "A4")
-	(lib_symbols
-		(symbol "2025-04-06_00-22-58:ADA4940-1ACPZ-R7"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 22.86 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "ADA4940-1ACPZ-R7"
-				(at 22.86 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "CP_16_21_ADI"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "ADA4940-1ACPZ-R7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "ADA4940-1ACPZ-R7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_16_21_ADI CP_16_21_ADI-M CP_16_21_ADI-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ADA4940-1ACPZ-R7_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -25.4)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -25.4) (xy 38.1 -25.4)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 -25.4) (xy 38.1 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "-FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "+IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "-IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "+FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "+VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 0)
-					(length 7.62)
-					(name "+VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 0)
-					(length 7.62)
-					(name "+VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -17.78 0)
-					(length 7.62)
-					(name "+VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 0 180)
-					(length 7.62)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 45.72 -2.54 180)
-					(length 7.62)
-					(name "-VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 45.72 -5.08 180)
-					(length 7.62)
-					(name "-VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 45.72 -7.62 180)
-					(length 7.62)
-					(name "-VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 45.72 -10.16 180)
-					(length 7.62)
-					(name "-VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -12.7 180)
-					(length 7.62)
-					(name "*DISABLE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 45.72 -15.24 180)
-					(length 7.62)
-					(name "-OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 45.72 -17.78 180)
-					(length 7.62)
-					(name "+OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 45.72 -20.32 180)
-					(length 7.62)
-					(name "VOCM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
+	(lib_symbols)
+	(no_connect
+		(at 118.11 71.12)
+		(uuid "1ebf600a-ccb3-4ba9-a59f-317160a9d4ae")
 	)
-	(symbol
-		(lib_id "2025-04-06_00-22-58:ADA4940-1ACPZ-R7")
-		(at 107.95 95.25 0)
-		(unit 1)
+	(no_connect
+		(at 199.39 69.85)
+		(uuid "761e42d7-bd1f-4924-976a-26e2aa1d99d0")
+	)
+	(no_connect
+		(at 199.39 66.04)
+		(uuid "783e66c7-0390-43f6-baaf-693f5a82c4c3")
+	)
+	(no_connect
+		(at 158.75 69.85)
+		(uuid "b5744742-431c-4401-bb2f-e89065e67e8c")
+	)
+	(no_connect
+		(at 118.11 67.31)
+		(uuid "b6991f91-b9ac-4166-a46b-eea3637ed2d6")
+	)
+	(no_connect
+		(at 158.75 66.04)
+		(uuid "c7bb15a4-7af7-40fb-ae8e-c1d7ad3b466e")
+	)
+	(no_connect
+		(at 130.81 68.58)
+		(uuid "fa7e8808-c408-4d23-86f3-1df3bf1a747e")
+	)
+	(sheet
+		(at 158.75 60.96)
+		(size 40.64 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a3bb09ac-2d46-49f7-9e2c-e08a8ca86764")
-		(property "Reference" "U1"
-			(at 130.81 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
+		(stroke
+			(width 0.1524)
+			(type solid)
 		)
-		(property "Value" "ADA4940-1ACPZ-R7"
-			(at 130.81 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
+		(fill
+			(color 0 0 0 0.0000)
 		)
-		(property "Footprint" "CP_16_21_ADI"
-			(at 107.95 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "ADA4940-1ACPZ-R7"
-			(at 107.95 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 95.25 0)
+		(uuid "68286b35-f34a-4061-bf10-a76135c0b9bb")
+		(property "Sheetname" "ADC"
+			(at 158.75 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left bottom)
 			)
 		)
-		(pin "14"
-			(uuid "99472c9f-e7df-4bfe-9575-722bf222a5e3")
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 158.75 75.5146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
-		(pin "11"
-			(uuid "e2bae791-ef1f-4006-bb74-21cf03023e14")
+		(pin "ADC_CHIP_OUT+" output
+			(at 199.39 69.85 0)
+			(uuid "a0d068cd-6237-4744-b61c-35f624ce5638")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
-		(pin "13"
-			(uuid "ccf9261d-88b0-4cba-9a07-6819594dcafa")
+		(pin "ADC_CHIP_OUT-" output
+			(at 199.39 66.04 0)
+			(uuid "f33faf17-2204-4875-9703-b51b004afff7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
 		)
-		(pin "12"
-			(uuid "ba9b845b-2df7-4ac9-9812-b932e4872c38")
+		(pin "ADC_EXT_IN+" input
+			(at 158.75 69.85 180)
+			(uuid "5a118b9d-b5c0-49ff-9386-f28d016de3b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
-		(pin "9"
-			(uuid "da08cb2c-3dd1-427d-9858-cc3db33ff652")
-		)
-		(pin "10"
-			(uuid "16169a00-45c4-4601-a8b3-f5d135d8cb4a")
-		)
-		(pin "17"
-			(uuid "687fc039-2c41-4b73-b89e-7f889939c89c")
-		)
-		(pin "15"
-			(uuid "64a5fbb2-c86a-46c1-b51f-c93e8bc7ec2f")
-		)
-		(pin "5"
-			(uuid "9b4e833d-bdf7-46a3-a1fc-a27a1812765d")
-		)
-		(pin "4"
-			(uuid "ba4ff824-094b-4a9f-9482-322ad93306c7")
-		)
-		(pin "6"
-			(uuid "a911f475-b5a3-4e54-936d-714318448586")
-		)
-		(pin "2"
-			(uuid "a1444350-7cfc-480c-bc9d-5f36fd0efe94")
-		)
-		(pin "7"
-			(uuid "90e6c901-c99e-41c9-b3dc-768d44237055")
-		)
-		(pin "16"
-			(uuid "ec8d7e9b-9d34-487b-ade3-1f8be5cc4be9")
-		)
-		(pin "8"
-			(uuid "fa4dd77d-a098-4c8a-8934-195268d80d0c")
-		)
-		(pin "1"
-			(uuid "004b80f4-575b-493e-ac82-0616c652196d")
-		)
-		(pin "3"
-			(uuid "b9a41eba-a6d1-41a4-a59a-3e2463238382")
+		(pin "ADC_EXT_IN-" input
+			(at 158.75 66.04 180)
+			(uuid "bd2b6693-c882-4cc0-87a8-444f106c2f02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
 		(instances
-			(project ""
+			(project "bringup"
 				(path "/5c7bcd8c-0d45-4448-8715-3709db3cee3b"
-					(reference "U1")
-					(unit 1)
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 179.07 90.17)
+		(at 118.11 63.5)
 		(size 12.7 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -574,7 +132,7 @@
 		)
 		(uuid "b1e6f190-9733-4e72-be38-4b52c2ef8902")
 		(property "Sheetname" "DAC"
-			(at 179.07 89.4584 0)
+			(at 118.11 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -583,12 +141,42 @@
 			)
 		)
 		(property "Sheetfile" "dac.kicad_sch"
-			(at 179.07 102.1846 0)
+			(at 118.11 75.5146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DAC+" input
+			(at 118.11 71.12 180)
+			(uuid "54c5b5b7-0140-4cc1-947a-cf416139f8e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC-" input
+			(at 118.11 67.31 180)
+			(uuid "c28c3346-18eb-4e93-b48f-f11902384637")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" output
+			(at 130.81 68.58 0)
+			(uuid "b1c77e32-f59a-42fa-b2e8-975a7c0461dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
